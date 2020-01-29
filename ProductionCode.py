@@ -24,6 +24,5 @@ def main():
     for word in results:
         print(f"{word} appears {results[word]} times")
 
-
-if __name__ == '__main__':
-    main()
+    if __name__ == '__main__':
+        main()
