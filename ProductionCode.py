@@ -10,7 +10,7 @@ def count_words(all_lines):
             cleaner_word = messy_word.rstrip("""!@#$%^&*()-={}[]"';:,./?\n""")
             clean_word = cleaner_word.lstrip("""!@#$%^&*()-={}[]"';:,./?\n""")
             if clean_word in word_count:
-                word_count[clean_word]+=1
+                word_count[clean_word] += 1
             else:
                 word_count[clean_word] = 1
     return word_count
@@ -27,4 +27,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
